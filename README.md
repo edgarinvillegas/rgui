@@ -1,4 +1,6 @@
 rgui
 ====
 
-Pure web (browser) project to emulate Raygun UI
+Pure web (browser) app to emulate Raygun UI
+
+Far to be ready (yet).
