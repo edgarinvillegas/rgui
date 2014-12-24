@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html ng-app="rgui"
+      lang="en"
+      class="js no-flexbox flexbox-legacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths wf-proximanova-i4-active wf-proximanova-n4-active wf-proximanova-n7-active wf-active js no-flexbox flexbox-legacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths">
+<!--<![endif]-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Application - ServiceTab7_prod">
+    <title>Application - ServiceTab7_prod - Raygun.io</title>
+    <script src="jslibs/angular.js"></script>
+    <script src="app.js"></script>
+
+
+    <link href="resources/screen.css" type="text/css" rel="stylesheet" media="screen, projection">
+    <!--[if IE]>
+    <link href="/cassette.axd/stylesheet/da39a3ee5e6b4b0d3255bfef95601890afd80709/stylesheets/ie.css" type="text/css"
+          rel="stylesheet" media="screen, projection"/>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="https://app.raygun.io/Content/Images/raygun.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57"
+          href="https://app.raygun.io/Content/Images/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+          href="https://app.raygun.io/Content/Images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+          href="https://app.raygun.io/Content/Images/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+          href="https://app.raygun.io/Content/Images/apple-touch-icon-144x144.png">
+</head>
+<body>
+<!--<ng-include src="'app/views/header.html'"></ng-include>-->
+<!--<ng-include src="'app/views/leftMenu.html'"></ng-include>-->
+
+
+<div class="raygun-container" id="rgContainer">
+    <div class="raygun-content">
+        <div id="rgTrialBanner">
+            <div class="trial-banner">
+
+                <div class="clearfix"></div>
+                <p>2 days remaining</p></div>
+        </div>
+        <div id="robbies-messages-region" class="section"></div>
+        <div class="section first" id="applicationStatistics"></div>
+        <!--<div class="section">
+            <div id="chart_container">
+                <div id="graphArea">
+                    <ng-include src="'app/views/svgExceptionGraph.html'"></ng-include>
+                </div>
+            </div>
+        </div>-->
+
+        <div class="section">
+            <ng-include src="'app/views/errorGroupList.html'"></ng-include>
+        </div>
+    </div>
+</div>
+
+<div class="raygun-dialog" id="rgDialog"></div>
+
+
+</body>
+</html>

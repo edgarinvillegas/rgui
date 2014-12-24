@@ -1,4 +1,4 @@
 rgui
 ====
 
-Pure client side project to emulate Raygun UI
+Pure web (browser) project to emulate Raygun UI

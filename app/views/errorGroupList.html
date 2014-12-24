@@ -1,0 +1,506 @@
+<div id="errorGroupList">
+    <div>
+        <div class="error-list-heading report-heading">
+            <div id="error-group-list-title" class="error-list-title">
+                <div><h1>
+                    Error Reports
+                </h1>
+
+                    <div class="filter-button">
+                        <button class="button button-32 button-plain button-before">
+                            <span class="icon-before flat-icon icon-16 filter-icon"></span>
+                            Filter
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="error-group-filters">
+            <div></div>
+        </div>
+
+        <div id="error-group-list-tabs">
+            <div class="tabbed-dashboardlist tabbed tabbed-4">
+                <div id="activeErrorGroupsTab" class="tab tab-active tab-selected">
+                    <p>Active</p>
+                    <span class="alert-badge">111</span>
+                </div>
+
+                <div id="resolvedErrorGroupsTab" class="tab tab-resolved">
+                    <p>Resolved</p>
+                    <span class="alert-badge">0</span>
+                </div>
+
+                <div id="ignoredErrorGroupsTab" class="tab tab-ignored">
+                    <p>Ignored</p>
+                    <span class="alert-badge">0</span>
+                </div>
+
+                <div id="permanentlyIgnoredErrorGroupsTab" class="tab tab-permanently">
+                    <p>Permanently Ignored</p>
+                    <span class="alert-badge">0</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="overview-list">
+            <div id="error-group-list-header">
+                <div class="rg-table list-heading">
+                    <div class="rg-row">
+                        <div class="rg-cell bulk-status">
+                            <input type="checkbox">
+                        </div>
+                        <div class="rg-cell error-message">
+                            <a class="sort button hover-plain icon-after order-inactive"
+                               data-sort="message">Message</a>
+                        </div>
+                        <div class="rg-cell time-occurred">
+                            <a class="sort button hover-plain icon-after order-inactive"
+                               data-sort="time">Time Occurred</a>
+                        </div>
+                        <div class="rg-cell error-count">
+                            <a class="sort button  hover-plain icon-after order-inactive"
+                               data-sort="count">Count</a>
+                        </div>
+                        <div class="rg-cell has-comments">&nbsp;</div>
+                    </div>
+                </div>
+            </div>
+            <div id="error-group-list">
+                <div class="rg-table flat-top">
+                    <div class="rg-row clickable"><label class="rg-cell bulk-status">
+                        <input type="checkbox">
+                    </label>
+                        <a class="rg-cell error-message"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590998118?">
+                            <p>TypeError: undefined is not an object (evaluating
+                                'this.$links[d]=true')</p>
+                            <span class="time">a minute ago</span>
+                            <span class="count">34</span>
+                        </a>
+                        <a class="rg-cell time-occurred"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590998118?"
+                           title="December 24th 2014, 2:59:14 pm"><p>a minute ago</p></a>
+                        <a class="rg-cell error-count"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590998118?"><p>34</p></a>
+
+                        <div class="rg-cell has-comments">
+                            <i class="icon-solo comment-icon text-grey"></i>
+                            <i class="icon-solo link-icon"></i>
+                        </div>
+                    </div>
+                    <div class="rg-row clickable"><label class="rg-cell bulk-status">
+                        <input type="checkbox">
+                    </label>
+                        <a class="rg-cell error-message"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590860196?">
+                            <p>TypeError: 'null' is not an object (evaluating
+                                'd.down("#items").getViewItems')</p>
+                            <span class="time">37 minutes ago</span>
+                            <span class="count">96</span>
+                        </a>
+                        <a class="rg-cell time-occurred"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590860196?"
+                           title="December 24th 2014, 2:23:19 pm"><p>37 minutes ago</p></a>
+                        <a class="rg-cell error-count"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590860196?"><p>96</p></a>
+
+                        <div class="rg-cell has-comments">
+                            <i class="icon-solo comment-icon text-grey"></i>
+                            <i class="icon-solo link-icon"></i>
+                        </div>
+                    </div>
+                    <div class="rg-row clickable"><label class="rg-cell bulk-status">
+                        <input type="checkbox">
+                    </label>
+                        <a class="rg-cell error-message"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590891510?">
+                            <p>TypeError: 'undefined' is not an object (evaluating 'f.getShapes')</p>
+                            <span class="time">37 minutes ago</span>
+                            <span class="count">36</span>
+                        </a>
+                        <a class="rg-cell time-occurred"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590891510?"
+                           title="December 24th 2014, 2:22:46 pm"><p>37 minutes ago</p></a>
+                        <a class="rg-cell error-count"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590891510?"><p>36</p></a>
+
+                        <div class="rg-cell has-comments">
+                            <i class="icon-solo comment-icon text-grey"></i>
+                            <i class="icon-solo link-icon"></i>
+                        </div>
+                    </div>
+                    <div class="rg-row clickable"><label class="rg-cell bulk-status">
+                        <input type="checkbox">
+                    </label>
+                        <a class="rg-cell error-message"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590903004?">
+                            <p>TypeError: undefined is not an object (evaluating 'a.xhr.readyState')</p>
+                            <span class="time">an hour ago</span>
+                            <span class="count">294</span>
+                        </a>
+                        <a class="rg-cell time-occurred"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590903004?"
+                           title="December 24th 2014, 2:15:39 pm"><p>an hour ago</p></a>
+                        <a class="rg-cell error-count"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590903004?"><p>294</p>
+                        </a>
+
+                        <div class="rg-cell has-comments">
+                            <i class="icon-solo comment-icon text-grey"></i>
+                            <i class="icon-solo link-icon"></i>
+                        </div>
+                    </div>
+                    <div class="rg-row clickable"><label class="rg-cell bulk-status">
+                        <input type="checkbox">
+                    </label>
+                        <a class="rg-cell error-message"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/613751525?">
+                            <p>TypeError: 'undefined' is not an object (evaluating
+                                's.getPackageTab().setDisableMileageButtons')</p>
+                            <span class="time">an hour ago</span>
+                            <span class="count">2</span>
+                        </a>
+                        <a class="rg-cell time-occurred"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/613751525?"
+                           title="December 24th 2014, 2:12:31 pm"><p>an hour ago</p></a>
+                        <a class="rg-cell error-count"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/613751525?"><p>2</p></a>
+
+                        <div class="rg-cell has-comments">
+                            <i class="icon-solo comment-icon text-grey"></i>
+                            <i class="icon-solo link-icon"></i>
+                        </div>
+                    </div>
+                    <div class="rg-row clickable"><label class="rg-cell bulk-status">
+                        <input type="checkbox">
+                    </label>
+                        <a class="rg-cell error-message"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590909007?">
+                            <p>TypeError: null is not an object (evaluating 'f.add')</p>
+                            <span class="time">an hour ago</span>
+                            <span class="count">76</span>
+                        </a>
+                        <a class="rg-cell time-occurred"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590909007?"
+                           title="December 24th 2014, 2:05:35 pm"><p>an hour ago</p></a>
+                        <a class="rg-cell error-count"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590909007?"><p>76</p></a>
+
+                        <div class="rg-cell has-comments">
+                            <i class="icon-solo comment-icon text-grey"></i>
+                            <i class="icon-solo link-icon"></i>
+                        </div>
+                    </div>
+                    <div class="rg-row clickable"><label class="rg-cell bulk-status">
+                        <input type="checkbox">
+                    </label>
+                        <a class="rg-cell error-message"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590836413?">
+                            <p>TypeError: null is not an object (evaluating
+                                'd.down("#items").getViewItems')</p>
+                            <span class="time">an hour ago</span>
+                            <span class="count">186</span>
+                        </a>
+                        <a class="rg-cell time-occurred"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590836413?"
+                           title="December 24th 2014, 2:05:11 pm"><p>an hour ago</p></a>
+                        <a class="rg-cell error-count"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590836413?"><p>186</p>
+                        </a>
+
+                        <div class="rg-cell has-comments">
+                            <i class="icon-solo comment-icon text-grey"></i>
+                            <i class="icon-solo link-icon"></i>
+                        </div>
+                    </div>
+                    <div class="rg-row clickable"><label class="rg-cell bulk-status">
+                        <input type="checkbox">
+                    </label>
+                        <a class="rg-cell error-message"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/592501637?">
+                            <p>TypeError: null is not an object (evaluating
+                                'this.getCanvasEl().dom')</p>
+                            <span class="time">2 hours ago</span>
+                            <span class="count">10</span>
+                        </a>
+                        <a class="rg-cell time-occurred"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/592501637?"
+                           title="December 24th 2014, 1:25:30 pm"><p>2 hours ago</p></a>
+                        <a class="rg-cell error-count"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/592501637?"><p>10</p></a>
+
+                        <div class="rg-cell has-comments">
+                            <i class="icon-solo comment-icon text-grey"></i>
+                            <i class="icon-solo link-icon"></i>
+                        </div>
+                    </div>
+                    <div class="rg-row clickable"><label class="rg-cell bulk-status">
+                        <input type="checkbox">
+                    </label>
+                        <a class="rg-cell error-message"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/592820612?">
+                            <p>TypeError: 'undefined' is not a function</p>
+                            <span class="time">2 hours ago</span>
+                            <span class="count">6</span>
+                        </a>
+                        <a class="rg-cell time-occurred"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/592820612?"
+                           title="December 24th 2014, 12:48:35 pm"><p>2 hours ago</p></a>
+                        <a class="rg-cell error-count"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/592820612?"><p>6</p></a>
+
+                        <div class="rg-cell has-comments">
+                            <i class="icon-solo comment-icon text-grey"></i>
+                            <i class="icon-solo link-icon"></i>
+                        </div>
+                    </div>
+                    <div class="rg-row clickable"><label class="rg-cell bulk-status">
+                        <input type="checkbox">
+                    </label>
+                        <a class="rg-cell error-message"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590833240?">
+                            <p>TypeError: null is not an object (evaluating 'b.setHtml')</p>
+                            <span class="time">2 hours ago</span>
+                            <span class="count">167</span>
+                        </a>
+                        <a class="rg-cell time-occurred"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590833240?"
+                           title="December 24th 2014, 12:45:43 pm"><p>2 hours ago</p></a>
+                        <a class="rg-cell error-count"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590833240?"><p>167</p>
+                        </a>
+
+                        <div class="rg-cell has-comments">
+                            <i class="icon-solo comment-icon text-grey"></i>
+                            <i class="icon-solo link-icon"></i>
+                        </div>
+                    </div>
+                    <div class="rg-row clickable"><label class="rg-cell bulk-status">
+                        <input type="checkbox">
+                    </label>
+                        <a class="rg-cell error-message"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/594494322?">
+                            <p>TypeError: undefined is not a function</p>
+                            <span class="time">15 hours ago</span>
+                            <span class="count">7</span>
+                        </a>
+                        <a class="rg-cell time-occurred"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/594494322?"
+                           title="December 24th 2014, 12:06:56 am"><p>15 hours ago</p></a>
+                        <a class="rg-cell error-count"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/594494322?"><p>7</p></a>
+
+                        <div class="rg-cell has-comments">
+                            <i class="icon-solo comment-icon text-grey"></i>
+                            <i class="icon-solo link-icon"></i>
+                        </div>
+                    </div>
+                    <div class="rg-row clickable"><label class="rg-cell bulk-status">
+                        <input type="checkbox">
+                    </label>
+                        <a class="rg-cell error-message"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590949664?">
+                            <p>TypeError: 'null' is not an object (evaluating 'f.add')</p>
+                            <span class="time">16 hours ago</span>
+                            <span class="count">62</span>
+                        </a>
+                        <a class="rg-cell time-occurred"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590949664?"
+                           title="December 23rd 2014, 11:02:28 pm"><p>16 hours ago</p></a>
+                        <a class="rg-cell error-count"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590949664?"><p>62</p></a>
+
+                        <div class="rg-cell has-comments">
+                            <i class="icon-solo comment-icon text-grey"></i>
+                            <i class="icon-solo link-icon"></i>
+                        </div>
+                    </div>
+                    <div class="rg-row clickable"><label class="rg-cell bulk-status">
+                        <input type="checkbox">
+                    </label>
+                        <a class="rg-cell error-message"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590864159?">
+                            <p>TypeError: 'null' is not an object (evaluating 'b.setHtml')</p>
+                            <span class="time">16 hours ago</span>
+                            <span class="count">106</span>
+                        </a>
+                        <a class="rg-cell time-occurred"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590864159?"
+                           title="December 23rd 2014, 10:49:41 pm"><p>16 hours ago</p></a>
+                        <a class="rg-cell error-count"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590864159?"><p>106</p>
+                        </a>
+
+                        <div class="rg-cell has-comments">
+                            <i class="icon-solo comment-icon text-grey"></i>
+                            <i class="icon-solo link-icon"></i>
+                        </div>
+                    </div>
+                    <div class="rg-row clickable"><label class="rg-cell bulk-status">
+                        <input type="checkbox">
+                    </label>
+                        <a class="rg-cell error-message"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/591628980?">
+                            <p>You're trying to decode an invalid JSON String: </p>
+                            <span class="time">17 hours ago</span>
+                            <span class="count">37</span>
+                        </a>
+                        <a class="rg-cell time-occurred"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/591628980?"
+                           title="December 23rd 2014, 10:08:26 pm"><p>17 hours ago</p></a>
+                        <a class="rg-cell error-count"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/591628980?"><p>37</p></a>
+
+                        <div class="rg-cell has-comments">
+                            <i class="icon-solo comment-icon text-grey"></i>
+                            <i class="icon-solo link-icon"></i>
+                        </div>
+                    </div>
+                    <div class="rg-row clickable"><label class="rg-cell bulk-status">
+                        <input type="checkbox">
+                    </label>
+                        <a class="rg-cell error-message"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/594637053?">
+                            <p>TypeError: null is not an object (evaluating
+                                'm.setStoreServiceHistory')</p>
+                            <span class="time">18 hours ago</span>
+                            <span class="count">10</span>
+                        </a>
+                        <a class="rg-cell time-occurred"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/594637053?"
+                           title="December 23rd 2014, 8:35:41 pm"><p>18 hours ago</p></a>
+                        <a class="rg-cell error-count"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/594637053?"><p>10</p></a>
+
+                        <div class="rg-cell has-comments">
+                            <i class="icon-solo comment-icon text-grey"></i>
+                            <i class="icon-solo link-icon"></i>
+                        </div>
+                    </div>
+                    <div class="rg-row clickable"><label class="rg-cell bulk-status">
+                        <input type="checkbox">
+                    </label>
+                        <a class="rg-cell error-message"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/591163724?">
+                            <p>TypeError: null is not an object (evaluating 'i.setValue')</p>
+                            <span class="time">19 hours ago</span>
+                            <span class="count">9</span>
+                        </a>
+                        <a class="rg-cell time-occurred"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/591163724?"
+                           title="December 23rd 2014, 7:55:14 pm"><p>19 hours ago</p></a>
+                        <a class="rg-cell error-count"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/591163724?"><p>9</p></a>
+
+                        <div class="rg-cell has-comments">
+                            <i class="icon-solo comment-icon text-grey"></i>
+                            <i class="icon-solo link-icon"></i>
+                        </div>
+                    </div>
+                    <div class="rg-row clickable"><label class="rg-cell bulk-status">
+                        <input type="checkbox">
+                    </label>
+                        <a class="rg-cell error-message"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/592660107?">
+                            <p>TypeError: null is not an object (evaluating
+                                'j.down("#campaignsServices").setStore')</p>
+                            <span class="time">20 hours ago</span>
+                            <span class="count">5</span>
+                        </a>
+                        <a class="rg-cell time-occurred"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/592660107?"
+                           title="December 23rd 2014, 7:22:02 pm"><p>20 hours ago</p></a>
+                        <a class="rg-cell error-count"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/592660107?"><p>5</p></a>
+
+                        <div class="rg-cell has-comments">
+                            <i class="icon-solo comment-icon text-grey"></i>
+                            <i class="icon-solo link-icon"></i>
+                        </div>
+                    </div>
+                    <div class="rg-row clickable"><label class="rg-cell bulk-status">
+                        <input type="checkbox">
+                    </label>
+                        <a class="rg-cell error-message"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590831814?">
+                            <p>TypeError: 'undefined' is not an object (evaluating
+                                'a.xhr.readyState')</p>
+                            <span class="time">20 hours ago</span>
+                            <span class="count">74</span>
+                        </a>
+                        <a class="rg-cell time-occurred"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590831814?"
+                           title="December 23rd 2014, 6:54:26 pm"><p>20 hours ago</p></a>
+                        <a class="rg-cell error-count"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590831814?"><p>74</p></a>
+
+                        <div class="rg-cell has-comments">
+                            <i class="icon-solo comment-icon text-grey"></i>
+                            <i class="icon-solo link-icon"></i>
+                        </div>
+                    </div>
+                    <div class="rg-row clickable"><label class="rg-cell bulk-status">
+                        <input type="checkbox">
+                    </label>
+                        <a class="rg-cell error-message"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/616564342?">
+                            <p>You're trying to decode an invalid JSON String: &lt;HTML&gt;
+                                &lt;head&gt;
+                                &lt;META HTTP-EQUIV="Pragma" CONTENT="no-cache"&gt;
+                                &lt;META HTTP-EQUIV="Cache-Control" CONTENT="no-cache"&gt;
+                                &lt;META HTTP-EQUIV="REFRESH"
+                                CONTENT="1;URL=http://st.xtime.com/xws?_dc=1419359909448"&gt;
+                                &lt;/head&gt;
+                                &lt;body&gt;&amp;nbsp;&lt;/body&gt;
+                                &lt;/HTML&gt;
+
+                                &lt;script language="javascript"&gt;
+                                &lt;/script&gt;
+                            </p>
+                            <span class="time">20 hours ago</span>
+                            <span class="count">1</span>
+                        </a>
+                        <a class="rg-cell time-occurred"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/616564342?"
+                           title="December 23rd 2014, 6:38:30 pm"><p>20 hours ago</p></a>
+                        <a class="rg-cell error-count"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/616564342?"><p>1</p></a>
+
+                        <div class="rg-cell has-comments">
+                            <i class="icon-solo comment-icon text-grey"></i>
+                            <i class="icon-solo link-icon"></i>
+                        </div>
+                    </div>
+                    <div class="rg-row clickable"><label class="rg-cell bulk-status">
+                        <input type="checkbox">
+                    </label>
+                        <a class="rg-cell error-message"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590890477?">
+                            <p>TypeError: 'null' is not an object (evaluating
+                                'b.originalServices.each')</p>
+                            <span class="time">20 hours ago</span>
+                            <span class="count">15</span>
+                        </a>
+                        <a class="rg-cell time-occurred"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590890477?"
+                           title="December 23rd 2014, 6:32:42 pm"><p>20 hours ago</p></a>
+                        <a class="rg-cell error-count"
+                           href="https://app.raygun.io/dashboard/9e2e53/errors/590890477?"><p>15</p></a>
+
+                        <div class="rg-cell has-comments">
+                            <i class="icon-solo comment-icon text-grey"></i>
+                            <i class="icon-solo link-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="error-group-list-footer">
+            <div id="loadMore" class="button-48 plain load-more animated"><span>Load More</span>
+                <span class="animated-loading"></span></div>
+        </div>
+    </div>
+</div>
